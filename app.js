@@ -232,6 +232,17 @@ function renderDashboard() {
         </div>
     `;
 
+    html += `
+        <div class="col-12">
+            <div class="motivation-card rounded-4 overflow-hidden position-relative">
+                <img src="./img/frase metacrack.png" alt="Estudia hoy, alcanza tus metas mañana" class="motivation-image">
+                <div class="motivation-caption">
+                    <span class="small fw-semibold">Tu progreso empieza con el siguiente paso.</span>
+                </div>
+            </div>
+        </div>
+    `;
+
     // Próximas fechas
     html += `
         <div class="col-12">
